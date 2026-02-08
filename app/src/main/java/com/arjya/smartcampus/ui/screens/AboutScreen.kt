@@ -127,7 +127,7 @@ fun AboutScreen(onBack: () -> Unit) {
                                 )
                                 Spacer(modifier = Modifier.width(6.dp))
                                 Text(
-                                    text = "University of Burdwan",
+                                    text = "National Forensic Sciences University",
                                     color = Color.White.copy(alpha = 0.9f),
                                     fontSize = 14.sp,
                                     fontWeight = FontWeight.Medium
@@ -191,7 +191,7 @@ fun AboutScreen(onBack: () -> Unit) {
 
                         InfoRow(icon = Icons.Default.Person, label = "Name", value = "Arjya Ghosh")
                         InfoRow(icon = Icons.Default.Badge, label = "GIH ID", value = "GIH032BUR")
-                        InfoRow(icon = Icons.Default.School, label = "Institute", value = "University of Burdwan")
+                        InfoRow(icon = Icons.Default.School, label = "Institute", value = "National Forensic Sciences University")
                         InfoRow(icon = Icons.Default.Code, label = "Project", value = "Smart Campus Solutions")
                         InfoRow(icon = Icons.Default.Build, label = "Technology", value = "Jetpack Compose, Kotlin")
                         InfoRow(icon = Icons.Default.Android, label = "Platform", value = "Android (Material 3)")
